@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: Copyright 2025 Carabiner Systems, Inc
+# SPDX-FileCopyrightText: Copyright 2025 The Policy Labs Project Contributors
 # SPDX-License-Identifier: Apache-2.0
 ---
 version: "2"
@@ -27,7 +27,7 @@ formatters:
       sections:
         - standard
         - default
-        - prefix(github.com/carabiner-dev/attestation)
+        - prefix(github.com/policylabs/attestation)
 linters:
   enable:
     - asasalint

@@ -76,7 +76,7 @@ implement only the `Fetcher` the `Storer` interfaces.
 
 As we identify useful capabilities, more fetcher and storer types will be defined.
 This allows implementations,such as the
-[Carabiner collector](https://github.com/carabiner-dev/collector), to leverage
+[Carabiner collector](https://github.com/policylabs/collector), to leverage
 optimized capabilities from the repository implementaion backends.
 
 At present we have defined the `FetcherBySubject`, `FetcherByPredicateType` and
@@ -99,6 +99,6 @@ filtering capabilities.
 
 ## Copyright
 
-The contents of this repository are Copyright by Carabiner Systems, Inc and
+The contents of this repository are Copyright by The Policy Labs Project Contributors and
 released under the Apache-2.0 license. Feel free to contribute patches, comments
 or bug reports.
