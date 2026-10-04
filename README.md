@@ -99,6 +99,6 @@ filtering capabilities.
 
 ## Copyright
 
-The contents of this repository are Copyright by Carabiner Systems, Inc and
+The contents of this repository are Copyright by The Policy Labs Project Contributors and
 released under the Apache-2.0 license. Feel free to contribute patches, comments
 or bug reports.
