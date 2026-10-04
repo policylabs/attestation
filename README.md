@@ -76,7 +76,7 @@ implement only the `Fetcher` the `Storer` interfaces.
 
 As we identify useful capabilities, more fetcher and storer types will be defined.
 This allows implementations,such as the
-[Carabiner collector](https://github.com/carabiner-dev/collector), to leverage
+[Carabiner collector](https://github.com/policylabs/collector), to leverage
 optimized capabilities from the repository implementaion backends.
 
 At present we have defined the `FetcherBySubject`, `FetcherByPredicateType` and

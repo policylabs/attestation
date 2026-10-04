@@ -27,7 +27,7 @@ formatters:
       sections:
         - standard
         - default
-        - prefix(github.com/carabiner-dev/attestation)
+        - prefix(github.com/policylabs/attestation)
 linters:
   enable:
     - asasalint
