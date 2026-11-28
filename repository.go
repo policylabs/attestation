@@ -46,7 +46,7 @@ type Storer interface {
 	Store(context.Context, StoreOptions, []Envelope) error
 }
 
-// StoreOptions control how attestations are retrieved from a Fetcher. All
+// FetchOptions control how attestations are retrieved from a Fetcher. All
 // repositories implementing the Fetcher interface are expected to honor FetchOptions.
 type FetchOptions struct {
 	// Maximum number of attestations to return
@@ -57,6 +57,14 @@ type FetchOptions struct {
 
 	// Apply query after fetching attestations
 	Query *Query
+
+	// KeepContent asks the repository backend to keep the raw data of each
+	// attestation as it was read in the content field of its predicate's
+	// origin resource descriptor. The digest of the origin is that of the
+	// content.
+	//
+	// Must be off by default: it holds every attestation in memory twice.
+	KeepContent bool
 }
 
 // StoreOptions control how attestations are stored in the storer. All repositories
